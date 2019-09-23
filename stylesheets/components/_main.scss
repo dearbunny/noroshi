@@ -1,0 +1,42 @@
+// 共用
+ul{
+    list-style: none;
+}
+body{
+    color: $primary;
+    background: $cream url(../images/bg-noise.png) repeat;
+}
+
+.logo{
+    @include pad{
+        height: 34px;
+    }
+}
+.logo-s{
+    width: 154px;
+    min-height: 47px;
+    background:url(../images/logo.svg) no-repeat;
+    background-size: contain;
+}
+.icon-line{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../images/ic-line@.svg);
+    background-size: contain;
+}
+.icon-facebook{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../images/ic-facebook.svg);
+    background-size: contain;
+}
+.material-icons {
+    display: inline-block;
+    // font-size: inherit;
+    line-height: inherit;
+    vertical-align: middle;
+    transform: translateY(-.1em);
+
+}

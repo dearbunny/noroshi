@@ -1,0 +1,25 @@
+.header {
+  $main-height: 496px;
+  position: relative;
+  .header-main-image {
+    width: 100%;
+    min-height: $main-height;
+    background-repeat: no-repeat;
+    &-1{
+      background-image: url(../images/header-img-1.jpg);
+    }
+    &-2{
+      background-image: url(../images/header-img-2.jpg);
+    }
+    @include pad{
+      min-height: 275px;
+    }
+    &-3{
+      background-image: url(../images/header-img-3.jpg);
+      @include pad{
+        min-height: 496px;
+      }
+    }
+    
+  }
+}

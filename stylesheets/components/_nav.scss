@@ -1,0 +1,14 @@
+
+.nav-pills {
+    .nav-link{
+        color: $cream;
+        border: $cream 1px solid;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        &.active{
+            color: $primary;
+            background-color: $cream;
+        }
+    }
+    
+}

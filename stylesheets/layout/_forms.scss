@@ -1,0 +1,30 @@
+// 表單
+.form-square{
+    position: relative;
+    background-color: $cream;
+    &.form-square-withicon{
+        padding-left: 60px;
+    }
+    .form-input{
+        padding-top: 16px;
+        padding-bottom: 16px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+    
+    .form-square-icon-left{
+        position: absolute;
+        top: 18px;
+        left: 20px;
+    }
+    @include pad{
+        margin-top: 30px !important;
+        width: 100%;
+    }
+}
+select{
+    appearance:none;
+    background: url("../images/select-arrow.svg") no-repeat right center transparent;
+    border: none;
+}

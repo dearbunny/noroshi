@@ -1,0 +1,87 @@
+// 購物車
+
+.cart-row + .cart-row{
+    position: relative;
+    display: none;
+    &::before{
+        @include pad-min{
+            display: block;
+            position: absolute;
+            left: 10px;
+            top: 0;
+            width: calc(100% - 20px);
+            content: "";
+            border-top: 1px solid $secondary;
+        }
+    }
+}
+.cart-img{
+    width: 100%;
+    min-height: 106px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    &-1{
+        background-image: url(../images/product-1.png);
+    }
+    &-6{
+        background-image: url(../images/product-6.png);
+    }
+    &-7{
+        background-image: url(../images/product-7.png);
+    }
+    @include pad-min{
+        width: 110px;
+        min-height: 110px;
+    }
+}
+.order-img{
+    width: 120px;
+    min-height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    &-1{
+        background-image: url(../images/product-1.png);
+    }
+    &-6{
+        background-image: url(../images/product-6.png);
+    }
+    &-7{
+        background-image: url(../images/product-7.png);
+    }
+}
+.btn-group-cart{
+    .btn{
+        padding: 0.69rem 1.21rem!important;
+    }
+}
+.subtotal{
+    margin-top: 8px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    width: 100%;
+    text-align: right;
+    border-top: 1px solid $secondary;
+    border-bottom: 1px solid $secondary;
+    @include pad-min{
+        border: none;
+        margin-top: 0;
+    }
+}
+.orderModule{
+    @include pad-min{
+        color: $cream;
+        background-color: $primary;
+    }
+    &-title{
+        padding-top: 16px;
+        padding-bottom: 16px;
+        background-color: $secondary;
+        @include pad-min{
+            padding-bottom: 0px;
+            background-color: transparent;
+        }
+    }
+    
+}

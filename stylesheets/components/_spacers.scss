@@ -1,0 +1,23 @@
+.navbar{
+    @include pad{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.container-md{
+    @include pad{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    @include mobile-s{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+}
+.mt-7{
+    @include pad{
+        margin-top: 60px !important;
+    }
+    
+}

@@ -1,0 +1,43 @@
+// setp
+.setp{
+    position: relative;
+    padding-left: 0;
+    margin-bottom: 0;
+    width: 100%;
+    &-item{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 21px;
+        height: 21px;
+        border: 1px solid $secondary;
+        border-radius: 50%;
+        background-color: $primary;
+        &.active:after{
+            display: block;
+            content: "";
+            width: 15px;
+            height: 15px;
+            background-color: $secondary;
+            border-radius: 50%;
+        }
+        &.completed{
+            padding-top: 3px;
+            font-size: 0.8rem;
+            color: $primary;
+            background-color: $secondary;
+        }
+    }
+    &::before{
+        position: absolute;
+        top: 10px;
+        left: 0;
+        right: 0;
+        height: 1px;
+        content: "";
+        background-color: $secondary;
+    }
+    
+    
+}

@@ -1,0 +1,34 @@
+// 響應式斷點
+// Medium devices (tablets, 768px and up)
+@mixin pad {
+    @media (max-width: 767px){
+        @content
+    }
+}
+@mixin mobile {
+    @media (max-width: 576px){
+        @content
+    }
+}
+@mixin mobile-s {
+    @media (max-width: 320px){
+        @content
+    }
+}
+
+@mixin pad-min {
+    @media (min-width: 768px){
+        @content
+    }
+}
+@mixin mobile-min {
+    @media (min-width: 576px){
+        @content
+    }
+}
+//圖片取代文字技巧
+@mixin hide-text {
+    text-indent: 110%;
+    word-spacing: normal;
+    overflow: hidden;
+}

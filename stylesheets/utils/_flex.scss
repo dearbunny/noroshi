@@ -1,0 +1,21 @@
+.flex-column{
+    flex-direction: column!important;
+}
+.flex-md-row{
+    @include pad-min{
+        flex-direction: row!important;
+    }
+}
+.flex-grow-1{
+    &-0{
+        flex-grow: 0!important;
+    }
+    &-1{
+        flex-grow: 1!important;
+    }
+}
+.flex-md-grow-0{
+    @include pad-min{
+        flex-grow: 0!important;
+    }
+}

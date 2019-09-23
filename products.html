@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>のろし麵屋 - 美味菜單</title>
+    <meta property="og:title" content="美味菜單 | のろし麵屋">
+    <meta property="og:description" content="來自函館的道地拉麵">
+    <meta property="og:site_name" content="のろし麵屋">
+    <meta property="og:image" content="http://diyrose.com/test/noroshi/images/why-1.png">
+    <meta property="og:locale" content="zh_TW">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <h1>
+                <a class="navbar-brand pl-4 pl-md-0" href="index.html">
+                    <img src="images/logo.svg" height="60" alt="" class="logo">
+                </a>
+            </h1>
+            
+            <a class="nav-link d-flex align-items-center order-md-1" href="carts.html"><i class="fas fa-shopping-cart"></i></a>
+            
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="products.html">拉麵</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">登入</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container px-0 px-md-3">
+        <header class="header">
+            <div class="header-main-image header-main-image-2 bg-cover">
+                <div class="title-3 ml-auto mr-6"></div>
+            </div>
+        </header>
+    </div>
+
+    <section class="mt-6 mt-md-7">
+        <div class="container container-md">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="bg-primary text-cream py-4 text-center mb-0">餐點類別</h3>
+                    <div class="list-group sticky-top text-center" id="myList" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-all-list" data-toggle="list" href="#list-all" role="tab" aria-controls="home">所有餐點（48）</a>
+                        <a class="list-group-item list-group-item-action" id="list-top-list" data-toggle="list" href="#list-top" role="tab" aria-controls="profile">本日精選（10）</a>
+                        <a class="list-group-item list-group-item-action" id="list-hot-list" data-toggle="list" href="#list-hot" role="tab" aria-controls="messages">人氣推薦（26）</a>
+                        <a class="list-group-item list-group-item-action" id="list-new-list" data-toggle="list" href="#list-new" role="tab" aria-controls="settings">新品上市（12）</a>
+                        <a href="#" class="list-group-item list-group-item-action disabled">絕版品</a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="tab-content" id="nav-tabContent">
+                        <!-- all -->
+                        <div class="tab-pane fade show active" id="list-all" role="tabpanel" aria-labelledby="list-all-list">
+                            <div class="row">
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-7 bg-cover">
+                                            <div class="picks-title">本日精選</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">地獄拉麵</div>
+                                            <div class="picks-coins w-50">NT$ 450</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-4 bg-cover">
+                                            <div class="picks-title">本日精選</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">叉燒拉麵</div>
+                                            <div class="picks-coins w-50">NT$ 450</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-3 bg-cover">
+                                            <div class="picks-title">本日精選</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">鹽味拉麵</div>
+                                            <div class="picks-coins w-50">NT$ 450</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-6 bg-cover">
+                                            <div class="picks-title">本日精選</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">鮭魚丼飯</div>
+                                            <div class="picks-coins w-50">NT$ 390</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-1 bg-cover">
+                                            <div class="picks-title">本日精選</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">豚骨拉麵</div>
+                                            <div class="picks-coins w-50">NT$ 580</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-5 bg-cover">
+                                            <div class="picks-title">本日精選</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">翡翠餃子</div>
+                                            <div class="picks-coins w-50">NT$ 390</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- top -->
+                        <div class="tab-pane fade" id="list-top" role="tabpanel" aria-labelledby="list-top-list">
+                            <div class="row">
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-7 bg-cover">
+                                            <div class="picks-title">本日精選</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">地獄拉麵</div>
+                                            <div class="picks-coins w-50">NT$ 450</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-4 bg-cover">
+                                            <div class="picks-title">本日精選</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">叉燒拉麵</div>
+                                            <div class="picks-coins w-50">NT$ 450</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-3 bg-cover">
+                                            <div class="picks-title">本日精選</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">鹽味拉麵</div>
+                                            <div class="picks-coins w-50">NT$ 450</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-6 bg-cover">
+                                            <div class="picks-title">本日精選</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">鮭魚丼飯</div>
+                                            <div class="picks-coins w-50">NT$ 390</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-1 bg-cover">
+                                            <div class="picks-title">本日精選</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">豚骨拉麵</div>
+                                            <div class="picks-coins w-50">NT$ 580</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-5 bg-cover">
+                                            <div class="picks-title">本日精選</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">翡翠餃子</div>
+                                            <div class="picks-coins w-50">NT$ 390</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- hot -->
+                        <div class="tab-pane fade" id="list-hot" role="tabpanel" aria-labelledby="list-hot-list">
+                            <div class="row">
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-7 bg-cover">
+                                            <div class="picks-title">人氣推薦</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">地獄拉麵</div>
+                                            <div class="picks-coins w-50">NT$ 450</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-4 bg-cover">
+                                            <div class="picks-title">人氣推薦</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">叉燒拉麵</div>
+                                            <div class="picks-coins w-50">NT$ 450</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-6 bg-cover">
+                                            <div class="picks-title">人氣推薦</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">鮭魚丼飯</div>
+                                            <div class="picks-coins w-50">NT$ 390</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- new -->
+                        <div class="tab-pane fade" id="list-new" role="tabpanel" aria-labelledby="list-new-list">
+                            <div class="row">
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-2 bg-cover">
+                                            <div class="picks-title">新品上市</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">柴魚拉麵</div>
+                                            <div class="picks-coins w-50">NT$ 390</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-9 bg-cover">
+                                            <div class="picks-title">新品上市</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">博多拉麵</div>
+                                            <div class="picks-coins w-50">NT$ 450</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-3 bg-cover">
+                                            <div class="picks-title">新品上市</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">鹽味拉麵</div>
+                                            <div class="picks-coins w-50">NT$ 450</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="picks d-flex flex-column">
+                                        <div class="picks-img picks-img-1 bg-cover">
+                                            <div class="picks-title">新品上市</div>
+                                            <a href="javascript:;" class="btn"><i class="far fa-heart favorite-icon"></i></a>
+                                        </div>
+                                        <div class="picks-body d-flex text-center">
+                                            <div class="picks-name w-50">豚骨拉麵</div>
+                                            <div class="picks-coins w-50">NT$ 580</div>
+                                        </div>
+                                        <a href="javascript:;" class="btn btn-secondary btn-lg btn-block font">加入購物車</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-3">
+        <div class="container d-flex justify-content-center">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination pagination-lg">
+                    <li class="page-item">
+                        <a class="page-link px-5" href="#" aria-label="Previous">
+                            <span aria-hidden="true" class="px-1"><i class="fas fa-caret-left"></i></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link px-5" href="#" aria-label="Next">
+                            <span aria-hidden="true" class="px-1"><i class="fas fa-caret-right"></i></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    
+
+
+
+
+    <section class="bg-primary mt-7 py-6">
+        <div class="container container-md">
+            <div class="row">
+                <div class="col-md-5 offset-md-1 d-flex align-items-center pt-2">
+                    <img src="images/logo-light.svg" alt="" class="mr-5" width="40">
+                    <span class="h3 text-cream ">訂閱你我的美味郵件</span>
+                </div>
+                <div class="col-md-5">
+                    <div class="form-square form-square-withicon d-flex justify-content-between align-items-center">
+                        <label for="subscription" class="material-icons form-square-icon-left">email</label>
+                        <input type="email" id="subscription" class="form-input w-100" placeholder="">
+                        <button class="btn btn-accent btn-lg d-flex align-items-center" type="button"><i class="material-icons">arrow_forward</i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-secondary py-6">
+        <div class="container container-md">
+            <div class="row">
+                <div class="col-md-5 offset-md-1 d-flex flex-column justify-content-between">
+                    <div class="logo-s mt-2 mb-6"></div>
+                    <ul class="list-nostyle">
+                        <li>07-1234-5678</li>
+                        <li><a href="mailto:sweetaste@email.com">sweetaste@email.com</a></li>
+                        <li>800 高雄市新興區幸福路 520 號</li>
+                    </ul>                    
+                </div>
+                <div class="col-md-5 d-none d-md-block">
+                    <div class="title-lg-4 ml-auto"></div>
+                </div>
+            </div>
+            <div class="row align-items-center mt-5">
+                <div class="col-md-5 offset-md-1">
+                    <a href="javascript:;"><span class="icon-line"></span></a>
+                    <a href="javascript:;"><span class="icon-facebook"></span></a>
+                </div>
+                <div class="col-md-5 text-md-right mt-3">
+                    <span>© 2018 Noroshi All Rights Reserved</span>
+                </div>
+            </div>
+        </div>   
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
