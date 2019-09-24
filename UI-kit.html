@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>のろし麵屋 - UI Kit</title>
+        <meta property="og:title" content="首頁 | のろし麵屋">
+        <meta property="og:description" content="Noroshi 來自函館的道地拉麵">
+        <meta property="og:site_name" content="のろし麵屋">
+        <meta property="og:image" content="http://diyrose.com/test/noroshi/images/why-1.png">
+        <meta property="og:locale" content="zh_TW">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="css/all.css">
+    </head>
+<body>
+    <div class="container">
+        <header class="my-8">
+            <h1 class="text-center">
+                <img src="images/logo.svg" height="100" alt="" class="logo">
+                <span class="d-block demo-logo mt-6">Noroshi UI</span>
+            </h1>
+        </header>
+
+        <h2 class="demo-section-title">Basic elements</h2>
+        <h3 class="demo-panel-title">Buttons</h3>
+        <section class="row mb-6">
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-primary">Primary Button</a>
+            </div>
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-secondary">Secondary Button</a>
+            </div>
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-coffee">Coffee Button</a>
+            </div>
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-accent">Accent Button</a>
+            </div>
+
+            <div class="w-100 mb-5"></div>
+            
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-success">Success Button</a>
+            </div>
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-warning">Warning Button</a>
+            </div>
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-info">Info Button</a>
+            </div>
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-danger">Danger Button</a>
+            </div>
+
+            <!-- outline -->
+            <div class="w-100 mb-5"></div>
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-outline-primary">Primary Button</a>
+            </div>
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-outline-secondary">Secondary Button</a>
+            </div>
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-outline-coffee">Coffee Button</a>
+            </div>
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-outline-accent">Accent Button</a>
+            </div>
+
+            <div class="w-100 mb-5"></div>
+            
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-outline-success">Success Button</a>
+            </div>
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-outline-warning">Warning Button</a>
+            </div>
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-outline-info">Info Button</a>
+            </div>
+            <div class="col">
+                <a href="#fakelink" class="btn btn-block btn-lg btn-outline-danger">Danger Button</a>
+            </div>
+        </section>
+
+        <section class="row mb-6">
+            <div class="col">
+                <h3 class="demo-panel-title">Dropdown</h3>
+    
+                <div class="btn-group">
+                <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Default <span class="caret"></span></button>
+                <ul role="menu" class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Action</a></li>
+                    <li><a href="#" class="dropdown-item">Another action</a></li>
+                    <li><a href="#" class="dropdown-item">Something else here</a></li>
+                    <li class="dropdown-item divider"></li>
+                    <li><a href="#" class="dropdown-item">Separated link</a></li>
+                </ul>
+                </div><!-- /btn-group -->
+            </div> <!-- /.col -->
+            <div class="col">
+                <h3 class="demo-panel-title">Select</h3>
+                <select class="form-control form-control-lg select select-primary" data-toggle="select">
+                <option value="0">Choose hero</option>
+                <option value="1">Spider Man</option>
+                <option value="2">Wolverine</option>
+                <option value="3">Captain America</option>
+                <option value="4" selected>X-Men</option>
+                <option value="5">Crocodile</option>
+                </select>
+            </div> <!-- /.col -->
+            <div class="col-6">
+                <h3 class="demo-panel-title">Tags input</h3>
+                <div class="tagsinput-primary">
+                <input name="tagsinput" class="form-control form-control-lg bg-cream" data-role="tagsinput" value="School, Teacher, Colleague" />
+                </div>
+            </div> <!-- /.col-6 -->
+        </section>
+
+        <h3 class="demo-panel-title">Navbar</h3>
+        <section class="mb-5 border">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="container">
+                    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <h1>
+                        <a class="navbar-brand pl-4 pl-md-0" href="#">
+                            <img src="images/logo.svg" height="60" alt="" class="logo">
+                        </a>
+                    </h1>
+                    
+                    <a class="nav-link d-flex align-items-center order-md-1" href="carts.html"><i class="fas fa-shopping-cart"></i></a>
+                    
+        
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">拉麵</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">登入</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        
+
+        <h3 class="demo-panel-title">Pagination</h3>
+        <section class="mt-3">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination pagination-lg">
+                    <li class="page-item">
+                        <a class="page-link px-5" href="#" aria-label="Previous">
+                            <span aria-hidden="true" class="px-1"><i class="fas fa-caret-left"></i></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link px-5" href="#" aria-label="Next">
+                            <span aria-hidden="true" class="px-1"><i class="fas fa-caret-right"></i></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="row typography-row mb-3">
+            <div class="demo-title">
+                <h3 class="demo-panel-title">Typography</h3>
+            </div>
+            <div class="demo-content">
+                <div class="demo-type-example">
+                    <h1><span class="demo-heading-note">Header 1</span>Showers across the W</h1>
+                </div>
+                <div class="demo-type-example">
+                    <h2><span class="demo-heading-note">Header 2</span>Give this quartet a few</h2>
+                </div>
+                <div class="demo-type-example">
+                    <h3><span class="demo-heading-note">Header 3</span>The Vatican transitions to a</h3>
+                </div>
+                <div class="demo-type-example">
+                    <h4><span class="demo-heading-note">Header 4</span>Great American Bites: Telluride's Oak, The</h4>
+                </div>
+                <div class="demo-type-example">
+                    <h5><span class="demo-heading-note">Header 5</span>Author Diane Alberts loves her some good</h5>
+                </div>
+                <div class="demo-type-example">
+                    <h6><span class="demo-heading-note">Header 6</span>With the success of young-adult book-to-movie</h6>
+                </div>
+                <div class="demo-type-example">
+                    <span class="demo-text-note">Paragraph</span>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <strong>Donec ullamcorper</strong> nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                </div>
+                <div class="demo-type-example">
+                    <span class="demo-text-note">Image</span>
+                <img src="images/why-1.png" alt="example-image" class="img-fluid" height="200">
+                <p class="img-comment"><strong>Note:</strong> gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                </div>
+                <div class="demo-type-example">
+                    <span class="demo-text-note">Lead Text</span>
+                            <p class="lead">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+                <div class="demo-type-example">
+                    <span class="demo-text-note">Quote</span>
+                <blockquote>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus.</p>
+                    <small>Steve Jobs, CEO Apple</small>
+                </blockquote>
+                </div>
+                <div class="demo-type-example">
+                    <span class="demo-text-note">Small Font</span>
+                <p><small>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</small></p>
+                </div>
+            </div><!-- /.demo-content-wide -->
+        </section>
+
+        <h3 class="demo-panel-title">Icons <small>(2)</small></h3>
+        <section>
+            <div class="d-flex">
+                <i class="fas fa-shopping-cart mr-5"></i>
+                <i class="fas fa-check mr-5"></i>
+            </div>
+        </section>
+
+        <h3 class="demo-panel-title">Material Icons <small>(6)</small></h3>
+        <section>
+            <div class="d-flex">
+                <i class="material-icons mr-5">email</i>
+                <i class="material-icons mr-5">arrow_forward</i>
+                <i class="material-icons mr-5">person</i>
+                <i class="material-icons mr-5">vpn_key</i>
+                <i class="material-icons mr-5">delete_outline</i>
+                <i class="material-icons mr-5">credit_card</i>
+            </div>
+        </section>
+
+        <h3 class="demo-panel-title">Social <small>(2)</small></h3>
+        <section>
+            <div class="d-flex">
+                <span class="icon-line mr-5"></span>
+                <span class="icon-facebook mr-5"></span>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer bg-secondary py-6 mt-7">
+        <div class="container container-md">
+            <div class="row">
+                <div class="col-md-5 offset-md-1 d-flex flex-column justify-content-between">
+                    <div class="logo-s mt-2 mb-6"></div>
+                    <ul class="list-nostyle">
+                        <li>04-1234-5678</li>
+                        <li><a href="mailto:sweetaste@email.com">sweetaste@email.com</a></li>
+                        <li>408 台中市南屯區幸福路 520 號</li>
+                    </ul>                    
+                </div>
+                <div class="col-md-5 d-none d-md-block">
+                    <div class="title-lg-4 ml-auto"></div>
+                </div>
+            </div>
+            <div class="row align-items-center mt-5">
+                <div class="col-md-5 offset-md-1">
+                    <span class="icon-line"></span>
+                    <span class="icon-facebook"></span>
+                </div>
+                <div class="col-md-5 text-md-right mt-3">
+                    <span>© 2018 Noroshi All Rights Reserved</span>
+                </div>
+            </div>
+        </div>   
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

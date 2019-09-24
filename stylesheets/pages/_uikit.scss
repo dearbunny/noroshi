@@ -1,0 +1,35 @@
+.demo{
+    &-logo{
+        font-size: 60px;
+        font-weight: 900;
+    }
+    &-section-title{
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 40px;
+        margin: 10px 0;
+    }
+    &-panel-title{
+        padding-top: 20px;
+        margin: 2px 0 20px;
+        font-size: 23px;
+        font-weight: bold;
+        line-height: 40px;
+    }
+}
+.typography-row .demo-type-example{
+    padding-left: 25%;
+    margin-bottom: 40px;
+    position: relative;
+}
+.demo-heading-note, .demo-text-note{
+    display: block;
+    width: 260px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    font-size: 13px;
+    line-height: 13px;
+    color: #c0c1c2;
+    font-weight: 400;
+}

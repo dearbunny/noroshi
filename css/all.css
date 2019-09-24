@@ -12078,42 +12078,6 @@ select {
   background-repeat: no-repeat;
 }
 
-.picks-img-1 {
-  background-image: url(../images/product-1.png);
-}
-
-.picks-img-2 {
-  background-image: url(../images/product-2.png);
-}
-
-.picks-img-3 {
-  background-image: url(../images/product-8.png);
-}
-
-.picks-img-4 {
-  background-image: url(../images/product-4.png);
-}
-
-.picks-img-5 {
-  background-image: url(../images/product-5.png);
-}
-
-.picks-img-6 {
-  background-image: url(../images/product-6.png);
-}
-
-.picks-img-7 {
-  background-image: url(../images/product-7.png);
-}
-
-.picks-img-8 {
-  background-image: url(../images/product-8.png);
-}
-
-.picks-img-9 {
-  background-image: url(../images/product-9.png);
-}
-
 .picks-title {
   position: absolute;
   top: 0;
@@ -12369,18 +12333,6 @@ select {
   background-position: center center;
 }
 
-.cart-img-1 {
-  background-image: url(../images/product-1.png);
-}
-
-.cart-img-6 {
-  background-image: url(../images/product-6.png);
-}
-
-.cart-img-7 {
-  background-image: url(../images/product-7.png);
-}
-
 @media (min-width: 768px) {
   .cart-img {
     width: 110px;
@@ -12394,18 +12346,6 @@ select {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-}
-
-.order-img-1 {
-  background-image: url(../images/product-1.png);
-}
-
-.order-img-6 {
-  background-image: url(../images/product-6.png);
-}
-
-.order-img-7 {
-  background-image: url(../images/product-7.png);
 }
 
 .btn-group-cart .btn {
@@ -12500,6 +12440,44 @@ select {
   background-color: #C7B299;
 }
 
+.demo-logo {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.demo-section-title {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 40px;
+  margin: 10px 0;
+}
+
+.demo-panel-title {
+  padding-top: 20px;
+  margin: 2px 0 20px;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.typography-row .demo-type-example {
+  padding-left: 25%;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.demo-heading-note, .demo-text-note {
+  display: block;
+  width: 260px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  font-size: 13px;
+  line-height: 13px;
+  color: #c0c1c2;
+  font-weight: 400;
+}
+
 @media (max-width: 767px) {
   .navbar {
     padding-top: 10px;
@@ -12521,9 +12499,11 @@ select {
   }
 }
 
-.row-xs {
-  margin-right: -30px;
-  margin-left: -30px;
+@media (max-width: 576px) {
+  .row-xs {
+    margin-right: -30px;
+    margin-left: -30px;
+  }
 }
 
 @media (max-width: 767px) {
