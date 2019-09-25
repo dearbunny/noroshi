@@ -3,5 +3,7 @@ $(document).ready(function () {
         event.preventDefault();
         $(this).addClass("fas");
         $(this).removeClass("far");
+        $(this).css("color","#C1272D");
+
     });
 });
