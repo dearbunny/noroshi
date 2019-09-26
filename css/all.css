@@ -12118,8 +12118,8 @@ select {
 
 .favorite-icon {
   position: absolute;
-  top: 20px;
-  right: 22px;
+  top: 6px;
+  right: 10px;
   font-size: 20px;
   color: #534741;
 }
@@ -12544,22 +12544,6 @@ body {
   background-size: contain;
 }
 
-.icon-line {
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-  background: url(../images/ic-line@.svg);
-  background-size: contain;
-}
-
-.icon-facebook {
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-  background: url(../images/ic-facebook.svg);
-  background-size: contain;
-}
-
 .material-icons {
   display: inline-block;
   line-height: inherit;
@@ -12604,5 +12588,9 @@ body {
 
 .paragraph5 {
   font-size: 1rem;
+}
+
+.fa-23x {
+  font-size: 2.3em;
 }
 /*# sourceMappingURL=all.css.map */

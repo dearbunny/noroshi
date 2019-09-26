@@ -1,9 +1,8 @@
 $(document).ready(function () {
-    $(".js-favorite").click(function (event) { 
+    $(".js-favorite i").click(function (event) { 
         event.preventDefault();
         $(this).addClass("fas");
         $(this).removeClass("far");
-        $(this).css("color","#C1272D");
-
+        $(this).parent().addClass("text-accent");
     });
 });
