@@ -116,19 +116,6 @@
     }
 }
 
-// .writing-mode-rl{
-//     max-height: 420px;
-//     line-height: 1.8;
-
-//     writing-mode: vertical-rl;
-//     padding-top: 60px;
-//     padding-bottom: 30px;
-//     @include pad{
-//         width: 100%;
-//         writing-mode: horizontal-tb;
-//         padding: 30px 20px;
-//     }
-// }
 .writing-mode-rl{
     width: 100%;
     writing-mode: horizontal-tb;
